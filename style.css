@@ -173,7 +173,7 @@ body {
   .auth-image {
     float: left;
     width: 200px;
-    height: auto;
+    height: 200px;
     margin-top: 10px;
     margin-right: 25px;
   }
@@ -217,4 +217,4 @@ body {
     background:   hsla(315, 5%, 15%, 0.562);
     border: 0 none;
   }
- 
+  
