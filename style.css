@@ -41,7 +41,7 @@ body {
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
-    color:grey
+    color:grey;
     line-height: 49px;
     border-bottom: 3px solid; 
   }
@@ -123,19 +123,49 @@ body {
   
   #main-container {
     padding-top: 130px;
-    min-height: calc(100vh - 70px);
+
   }
   
   .main-section {
     float: left;
     width: 100%;
-    max-width: 960px;
+    max-width: 650px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 0 40px 0;
     background: #ffffff;
     border: 3px solid; color:hsla(315, 5%, 15%, 0.562);
   }
+
+  .sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: left;
+    border: 3px solid; 
+    color:hsla(315, 5%, 15%, 0.562);
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  h3, .sidebar, h2 {
+    border-bottom: 3px solid;
+    color:hsla(315, 5%, 15%, 0.562);
+    padding-bottom: 20px; 
+    margin-bottom: 15px;
+    line-height: 22px;
+  }
   
+  .social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+
+  .social: last-child {
+    margin-right: 0;
+  }
   /* portfolio page */
   
   .work {
@@ -173,7 +203,7 @@ body {
   .auth-image {
     float: left;
     width: 200px;
-    height: 200px;
+    height: auto;
     margin-top: 10px;
     margin-right: 25px;
   }
